@@ -78,6 +78,12 @@
     .footer a{
         color:white;
     }
+    img.slider-img{
+        height: 400px !important;
+    }
+    .slider-text{
+        background-color: rgba(0, 0, 0, 0.432) !important;
+    }
 
 
 </style>
