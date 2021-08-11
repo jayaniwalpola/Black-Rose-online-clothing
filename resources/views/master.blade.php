@@ -42,27 +42,38 @@
         width: 7%;
     }
     .login-card{
-        padding: 3%;
+        padding: 3% ;
+        margin-left: 0;
+
         width: 30%;
         height: 50%;
-        margin-left: 520px;
-        margin-top: 50px;
-
-    }
-    .bg-img{
-        padding: 2%;
-       background-image: url('https://c4.wallpaperflare.com/wallpaper/162/878/392/models-model-black-dress-black-hair-black-rose-hd-wallpaper-preview.jpg');
-       background-repeat: no-repeat;
-       background-size: contain;
-       margin-left: 200px;
+        margin-top: -190px;
+        margin-right: 300px;
+        float: right;
         z-index: -2;
-
     }
+
+
+
+
+    .img img{
+
+        width: 600px;
+        height: 400px;
+        padding-left: 5%;
+        padding-top: 5%;
+        margin-top: 3%;
+
+        margin-bottom: -100px;
+    }
+
+
     .footer{
         text-align: center;
         text-transform: uppercase;
         background-color: black;
         color: white;
+        margin-top: 100px;
     }
     .footer a{
         color:white;
