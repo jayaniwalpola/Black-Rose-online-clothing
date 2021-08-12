@@ -84,6 +84,22 @@
     .slider-text{
         background-color: rgba(0, 0, 0, 0.432) !important;
     }
+    .custom-product{
+        height: 600px;
+    }
+    .trending-image{
+        height: 100px;
+    }
+    .trending-item{
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper{
+        margin: 30px;
+    }
+    .detail-img{
+        height: 300px;
+    }
 
 
 </style>

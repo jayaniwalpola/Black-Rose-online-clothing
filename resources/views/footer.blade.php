@@ -1,4 +1,4 @@
-<div class="panel panel-default footer">
+<div style="clear:both;" class="panel panel-default footer">
     <h1 >The black rose</h1>
     <h5>(clothing brand)</h5>
     <h5>the joy of dressing is an art</h5>
