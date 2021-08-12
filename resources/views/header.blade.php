@@ -30,7 +30,7 @@ if(Session::has('user'))
 
         </div>
         <div class=" w3-right width-cart">
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-24">Cart({{$total}})</a>
+            <a href="/cartlist" class="w3-bar-item w3-button w3-mobile w3-padding-24">Cart({{$total}})</a>
         </div>
         @else
         <div class=" w3-right width-cart">
