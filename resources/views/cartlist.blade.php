@@ -19,7 +19,7 @@
                     </div>
                </div>
                <div class="col-sm-4">
-                <button class="btn btn-warning ">Remove from cart</button>
+                <a href="/removecart/{{$item->cart_id}}" class="btn btn-warning ">Remove from cart</a>
                </div>
 
             </div>

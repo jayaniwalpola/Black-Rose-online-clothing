@@ -20,25 +20,25 @@ if(Session::has('user'))
 
 
         <div class="w3-dropdown-hover w3-right ">
-            @if(Session::has('user'))
-
+            @if (Session::has('user'))
             <button class="w3-button w3-black w3-padding-24" style="width:100%;" >{{Session::get('user')['name']}}</button>
             <div class="w3-dropdown-content w3-bar-block w3-border" style="right:0">
-            <a href="/logout" class="w3-bar-item w3-button" style="background-color:black;">Logout</a>
+                 <a href="/logout" class="w3-bar-item w3-button" style="background-color:black;">Logout</a>
 
             </div>
 
-        </div>
-        <div class=" w3-right width-cart">
-            <a href="/cartlist" class="w3-bar-item w3-button w3-mobile w3-padding-24">Cart({{$total}})</a>
-        </div>
-        @else
-        <div class=" w3-right width-cart">
-            <a href="/login" class="w3-bar-item w3-button w3-mobile w3-padding-24">Login</a>
-        </div>
+            @else
+                <a href="/login" class="w3-bar-item w3-button w3-mobile w3-padding-24">Login</a>
+            @endif
 
-        @endif
-    </div>
+
+
+        </div>
+            <div class=" w3-right width-cart">
+                <a href="/cartlist" class="w3-bar-item w3-button w3-mobile w3-padding-24">Cart({{$total}})</a>
+            </div>
+
+ </div>
 
 
 
