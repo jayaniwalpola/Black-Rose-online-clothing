@@ -14,7 +14,7 @@ if(Session::has('user'))
         <a href="/" class="w3-bar-item w3-button w3-mobile w3-padding-24" style="width:7%;">Home</a>
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-24" style="width:7%;">About</a>
 
-        <a href="#" class="w3-bar-item w3-button w3-mobile w3-padding-24" style="width:7%;">Orders</a>
+        <a href="/myorders" class="w3-bar-item w3-button w3-mobile w3-padding-24" style="width:7%;">Orders</a>
 
 
 
@@ -28,7 +28,8 @@ if(Session::has('user'))
             </div>
 
             @else
-                <a href="/login" class="w3-bar-item w3-button w3-mobile w3-padding-24">Login</a>
+            <a href="/login" class="w3-bar-item w3-button w3-mobile w3-padding-24">Login</a>
+            <a href="/register" class="w3-bar-item w3-button w3-mobile w3-padding-24">Register</a>
             @endif
 
 
